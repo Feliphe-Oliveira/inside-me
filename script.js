@@ -1,5 +1,5 @@
 document.getElementById('btnInsi').addEventListener('click',()=>{
-    const cod = 'dor'
+    const cod = 'para'
     if(document.getElementById('senha').value.toUpperCase()==cod.toUpperCase()){
         document.getElementById('cx_verso').classList.add('destaque')
         document.getElementById('login').classList.add('semdestaque')
